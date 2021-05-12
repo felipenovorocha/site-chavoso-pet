@@ -1,0 +1,536 @@
+:root {
+  --cor-principal: #ff00af;
+  --cor-secundaria: #74003e;
+  --cor-comp1: #fca001;
+  --cor-comp2: #ffb62a;
+  --branco: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+/* clear: both; */
+#corpo {
+  width: 100%;
+  height: 1400px;
+  margin: auto;
+}
+/** textos **/
+li,
+a {
+  color: #585858;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#ad {
+  color: var(--cor-principal);
+}
+
+#h2-2a {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff00af;
+}
+
+#h2-2b {
+  font-size: 45px;
+  font-weight: 500;
+  color: #60495f;
+}
+
+#p1 {
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: center;
+  font-size: 40px;
+  color: #ffff;
+}
+
+.p2-2a {
+  text-align: center;
+  color: #60495f;
+  font-size: 23px;
+}
+
+#p2-2b {
+  text-align: center;
+  font-size: 35px;
+  color: #60495f;
+}
+
+#ad1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fca001;
+}
+
+#ad2 {
+  font-size: 35px;
+  color: #ff00af;
+}
+
+#h2-3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fca001;
+  margin-bottom: 30px;
+}
+
+#p3 {
+  padding-top: 10px;
+  font-size: 25px;
+  color: #ffff;
+}
+
+#ad3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fca001;
+}
+
+#h2-4a {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff00af;
+}
+
+#p4 {
+  color: #60495f;
+  font-size: 25px;
+}
+
+#h2-5 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff00af;
+}
+
+#h2-6 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff00af;
+}
+
+/** navbar **/
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 5%;
+  height: 85px;
+  background-image: url(foggy_birds.png);
+}
+
+#logo {
+  position: relative;
+  float: left;
+  height: 60px;
+}
+
+#page {
+  list-style: none;
+  float: right;
+}
+
+#page,
+li {
+  display: inline-block;
+  padding: 15px;
+  padding-right: 30px;
+}
+/** animação links **/
+#page,
+li,
+a,
+#ad,
+#a-c1,
+#ad2,
+#ad3 {
+  transition: all 0.3s ease 0s;
+}
+
+#page,
+li,
+a:hover,
+#ad:hover,
+#ad2:hover {
+  color: #d57dff;
+}
+
+#ad1:hover,
+#ad3:hover {
+  color: #ffb62a;
+}
+/** div 01 **/
+#conteudo {
+  width: 100%;
+  height: 620px;
+  padding: 30px 5%;
+  background-color: #ff00af;
+}
+
+#img1 {
+  padding-top: 50px;
+  filter: drop-shadow();
+}
+
+#p1 {
+  padding-top: 170px;
+}
+/** div02 **/
+#conteudo2 {
+  width: 100%;
+  height: 900px;
+  background-image: url(foggy_birds.png);
+  text-align: center;
+  padding-top: 50px;
+}
+
+#img2-a,
+#img2-b,
+#img2-c {
+  display: inline-block;
+  margin: 80px 50px 0px 50px;
+  border: 13px solid #ff00af;
+  border-radius: 30px;
+}
+
+#img2-a {
+  background: transparent url(div2shiba.png);
+  width: 350px;
+  height: 350px;
+}
+
+#img2-b {
+  background: transparent url(div2hotel.png);
+  width: 350px;
+  height: 350px;
+}
+
+#img2-c {
+  background: transparent url(div2walk.png);
+  width: 350px;
+  height: 350px;
+}
+
+#p-img2-a,
+#p-img2-b,
+#p-img2-c {
+  display: inline-block;
+  margin: 0px 50px 80px 50px;
+  padding-top: 25px;
+}
+
+#p-img2-a {
+  width: 350px;
+  height: 100px;
+}
+
+#p-img2-b {
+  width: 350px;
+  height: 100px;
+}
+
+#p-img2-c {
+  width: 350px;
+  height: 100px;
+}
+
+/** div 03 **/
+#conteudo3 {
+  clear: both;
+  width: 100%;
+  height: 900px;
+  background-color: #ff00af;
+  padding-top: 50px;
+}
+
+#textocontent3 {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  padding: 50px;
+  padding-top: 230px;
+}
+
+#work-image {
+  width: 49%;
+  height: 560px;
+  padding-top: 170px;
+  float: right;
+}
+
+#img3 {
+  border: 13px solid #ffff;
+  border-radius: 30px;
+}
+/** div 04**/
+#conteudo4 {
+  clear: both;
+  width: 100%;
+  height: 900px;
+  background-image: url(foggy_birds.png);
+  padding-top: 50px;
+}
+
+#textocontent4 {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+#titulo4 {
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+
+#cozinha {
+  width: 49%;
+  height: 560px;
+  padding-top: 170px;
+  float: right;
+}
+
+#img4 {
+  border: 13px solid #ff00af;
+  border-radius: 30px;
+}
+
+.bd4 {
+  background-color: rgb(255, 0, 175);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  font-size: 25px;
+  color: #ffff;
+  padding: 15px;
+  margin: 15px;
+}
+
+.bd4:hover {
+  background-color: rgba(255, 5, 175, 0.7);
+}
+
+/** div05 **/
+#conteudo5 {
+  clear: both;
+  width: 100%;
+  height: 980px;
+  background-image: url(foggy_birds.png);
+  padding-top: 0px;
+}
+
+#h2-5 {
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.p5 {
+  color: black;
+}
+
+#img5-top {
+  width: 75%;
+  height: 830px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #fca001;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.img5-tope {
+  display: inline-block;
+  width: 266px;
+  height: 760px;
+  margin: 40px;
+  padding: 40px 85px;
+  background-color: #fca001;
+}
+
+#imgspan5 {
+  width: 266px;
+  height: 230px;
+  text-align: center;
+  margin-left: -13px;
+  padding: 15px;
+}
+
+.bd5 {
+  background-color: rgb(255, 0, 175);
+  border: 5px solid #ff00af;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  font-size: 20px;
+  color: #ffff;
+  padding: 15px;
+  width: 175px;
+  margin-top: 30px;
+}
+
+.bd5:hover {
+  background-color: rgba(255, 5, 175, 0.7);
+}
+/** div 06 **/
+
+#conteudo6 {
+  clear: both;
+  width: 100%;
+  height: 800px;
+  background-image: url(foggy_birds.png);
+  padding-top: 0px;
+}
+
+#boxL {
+  width: 50%;
+  float: left;
+}
+
+#h2-6 {
+  margin: 60px 190px;
+}
+
+#boxR {
+  float: right;
+  width: 50%;
+  margin-top: 160px;
+}
+
+#logo6 {
+  color: #60495f;
+  padding-top: 30px;
+}
+
+#form {
+  width: 80%;
+  float: left;
+  padding-left: 180px;
+  /* box-shadow: 0 4px 8px #999; */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 1px solid #999;
+}
+
+label {
+  font-weight: bold;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+textarea {
+  height: 90px;
+}
+
+#button6 {
+  background-color: rgb(255, 0, 175);
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  font-size: 20px;
+  color: #ffff;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 5px;
+  float: right;
+}
+
+#button6:hover {
+  background-color: rgba(255, 5, 175, 0.7);
+}
+
+/** footer **/
+footer {
+  width: 100%;
+  height: 360px;
+  background-color: #74003e;
+  font-size: 20px;
+}
+
+.a6 {
+  font-size: 16px;
+  color: white;
+  font-weight: 450;
+  transition: all 0.5s ease 0s;
+  padding: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.a6:hover {
+  color: #ffb62a;
+}
+
+.caixa {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 40px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  color: #fca001;
+  margin-bottom: 15px;
+  font-weight: 200px;
+}
+
+i {
+  color: white;
+  margin: 5px;
+  transition: all 0.5s ease 0s;
+}
+
+i:hover {
+  color: #fca001;
+}
+
+#input6e {
+  color: #fca001;
+  border: none;
+}
+
+#Fbutton {
+  padding: 10px;
+  background-color: #dd8600;
+  border: none;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#Fbutton:hover {
+  background-color: #ffb62a;
+}

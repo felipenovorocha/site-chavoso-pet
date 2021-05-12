@@ -1,0 +1,413 @@
+//====================Estilos Gerais==========================
+
+:root {
+  --cor-principal: #ff00af;
+  --cor-secundaria: #74003e;
+  --cor-acento: #fca001;
+  --cor-acento2: #ffb62a;
+  --cor-complementar: #3b7f81;
+  font-family: "Ubuntu";
+
+  h1 {
+    font-size: 5rem;
+    color: black;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  label {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  span {
+    font-size: 38px;
+    color: var(--cor-acento);
+    font-weight: 800;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  //   overflow: hidden;
+}
+
+//=======================Seções==============================
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 35px 2px rgba($color: #000000, $alpha: 0.2);
+  padding: 15px;
+  background-image: url(/trabalhos-voluntarios/foggy_birds.png);
+  max-height: 9vh;
+
+  .logo {
+    img {
+      margin-left: 8vh;
+      min-height: 60px;
+    }
+  }
+  .nav-links {
+    ul {
+      margin-right: 10vh;
+      //   background-color: red;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style-type: none;
+    }
+  }
+
+  a {
+    display: inline-block;
+    font-size: 25px;
+    color: #585858;
+    // color: var(--cor-principal);
+    text-decoration: none;
+    margin: 28px;
+  }
+}
+
+.header-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url(https://cdn.pixabay.com/photo/2019/05/08/21/21/cat-4189697_960_720.jpg)
+    rgba($color: #000000, $alpha: 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  h1 {
+    color: white;
+    // font-family: "Ubuntu";
+  }
+
+  p {
+    margin: 50px 150px;
+    max-width: 150vh;
+    line-height: 2.9rem;
+    text-align: justify;
+  }
+
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    //   font-size: 2rem;
+    color: white;
+    background-color: var(--cor-secundaria);
+    border-radius: 7px;
+    padding: 18px;
+    margin: 15px;
+    font-size: 1.5rem;
+  }
+}
+
+.onde-ajudamos {
+  background-image: url(/trabalhos-voluntarios/foggy_birds.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 10rem;
+  //   background-color: red;
+
+  .card-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: var(--cor-principal);
+  }
+
+  p {
+    margin-top: 2rem;
+    color: var(--cor-principal);
+    font-size: 1.7rem;
+    text-align: justify;
+    // max-width: 150rem;
+  }
+
+  img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 20px solid var(--cor-principal);
+    box-shadow: 3px 10px 35px 1px rgba($color: black, $alpha: 0.2);
+  }
+
+  .card {
+    // position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba($color: lightgray, $alpha: 0.1);
+    // margin-right: 1rem;
+    max-width: 38rem;
+    min-height: 52rem;
+    // overflow: hidden;
+    margin-left: 1rem;
+    margin-top: 0px;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    backdrop-filter: blur(7px);
+    box-shadow: 10px 5px 15px 1px rgba($color: #000000, $alpha: 0.1);
+    justify-content: flex-start;
+  }
+
+  .legenda {
+    margin: 4rem;
+    line-height: 3rem;
+  }
+}
+
+.porque-afiliar {
+  //   background-image: url(/img/foggy_birds.png);
+  // background: ba($color: #ff00af, $alpha: 0.5);
+  background: radial-gradient(#ff00af, #d40091);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  padding: 10rem;
+
+  h1 {
+    margin-bottom: 80px;
+    color: white;
+  }
+
+  .conteudo {
+    display: flex;
+  }
+
+  p {
+    color: white;
+    text-align: justify;
+    max-height: 30rem;
+    overflow: hidden;
+    line-height: 3.3rem;
+  }
+
+  img {
+    max-height: 30rem;
+    margin: 20px;
+    margin-top: 0;
+    border-radius: 30px;
+    // overflow: hidden;
+    border: 30px solid white;
+    // animation-name: fade-top;
+    // animatransition: 0.5s;
+  }
+}
+
+.junte-se {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/trabalhos-voluntarios/foggy_birds.png);
+
+  h1 {
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .form-container {
+    width: 38rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    min-width: 100%;
+  }
+
+  label,
+  textarea {
+    text-align: left;
+    color: var(--cor-acento);
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea {
+    min-width: 100%;
+    min-height: 5vh;
+    border: 0.5px solid var(--cor-secundaria);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    margin-bottom: 30px;
+  }
+
+  button {
+    background-color: var(--cor-secundaria);
+    color: white;
+    font-size: 30px;
+    padding: 0.5em;
+    border-radius: 0.35em;
+  }
+}
+
+// ===============================FOOTER=============================================
+
+footer {
+  width: 100%;
+  height: 360px;
+  background-color: #74003e;
+  font-size: 20px;
+}
+
+.a6 {
+  font-size: 16px;
+  color: white;
+  font-weight: 450;
+  transition: all 0.5s ease 0s;
+  padding: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.a6:hover {
+  color: #ffb62a;
+}
+
+.caixa {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 40px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  color: #fca001;
+  margin-bottom: 15px;
+}
+
+i {
+  color: white;
+  margin: 5px;
+  transition: all 0.5s ease 0s;
+}
+
+i:hover {
+  color: #fca001;
+}
+
+#input6e {
+  color: #fca001;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 12px;
+  margin-left: 0px;
+  min-height: 5vh;
+}
+
+#Fbutton {
+  padding: 10px;
+  background-color: #dd8600;
+  border: none;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#Fbutton:hover {
+  background-color: #ffb62a;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+//=======================Animações==============================
+
+a:hover {
+  color: var(--cor-acento);
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+button:hover {
+  transition: 0.2s all ease-in-out;
+  transform: scale(1.05);
+  background-color: white;
+  color: var(--cor-secundaria);
+  cursor: pointer;
+  stroke: 5px var(--cor-secundaria);
+}
+
+@keyframes fadetop {
+  0% {
+    transform: translateX(-15px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes identifier {
+}
