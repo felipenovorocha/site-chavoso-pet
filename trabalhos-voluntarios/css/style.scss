@@ -47,43 +47,43 @@
 
 //=======================Seções==============================
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  border: 1px solid lightgray;
-  box-shadow: 0px 1px 35px 2px rgba($color: #000000, $alpha: 0.2);
-  padding: 15px;
-  background-image: url(/trabalhos-voluntarios/foggy_birds.png);
-  max-height: 9vh;
+// nav {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color: white;
+//   border: 1px solid lightgray;
+//   box-shadow: 0px 1px 35px 2px rgba($color: #000000, $alpha: 0.2);
+//   padding: 15px;
+//   background-image: url(/trabalhos-voluntarios/foggy_birds.png);
+//   max-height: 9vh;
 
-  .logo {
-    img {
-      margin-left: 8vh;
-      min-height: 60px;
-    }
-  }
-  .nav-links {
-    ul {
-      margin-right: 10vh;
-      //   background-color: red;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      list-style-type: none;
-    }
-  }
+//   .logo {
+//     img {
+//       margin-left: 8vh;
+//       min-height: 60px;
+//     }
+//   }
+//   .nav-links {
+//     ul {
+//       margin-right: 10vh;
+//       //   background-color: red;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-evenly;
+//       list-style-type: none;
+//     }
+//   }
 
-  a {
-    display: inline-block;
-    font-size: 25px;
-    color: #585858;
-    // color: var(--cor-principal);
-    text-decoration: none;
-    margin: 28px;
-  }
-}
+//   a {
+//     display: inline-block;
+//     font-size: 25px;
+//     color: #585858;
+//     // color: var(--cor-principal);
+//     text-decoration: none;
+//     margin: 28px;
+//   }
+// }
 
 .header-container {
   min-height: 100vh;
@@ -284,101 +284,6 @@ nav {
     padding: 0.5em;
     border-radius: 0.35em;
   }
-}
-
-// ===============================FOOTER=============================================
-
-footer {
-  width: 100%;
-  height: 360px;
-  background-color: #74003e;
-  font-size: 20px;
-}
-
-.a6 {
-  font-size: 16px;
-  color: white;
-  font-weight: 450;
-  transition: all 0.5s ease 0s;
-  padding: 10px;
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.a6:hover {
-  color: #ffb62a;
-}
-
-.caixa {
-  max-width: 1170px;
-  margin: auto;
-}
-
-.footer-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer {
-  padding: 70px 0;
-}
-
-.footer-col {
-  width: 25%;
-  padding: 0 40px;
-}
-
-.footer-col h4 {
-  font-size: 20px;
-  color: #fca001;
-  margin-bottom: 15px;
-}
-
-i {
-  color: white;
-  margin: 5px;
-  transition: all 0.5s ease 0s;
-}
-
-i:hover {
-  color: #fca001;
-}
-
-#input6e {
-  color: #fca001;
-  border: none;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  margin: 12px;
-  margin-left: 0px;
-  min-height: 5vh;
-}
-
-#Fbutton {
-  padding: 10px;
-  background-color: #dd8600;
-  border: none;
-  width: 50%;
-  border: none;
-  border-radius: 8px;
-  transition: all 0.5s ease 0s;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#Fbutton:hover {
-  background-color: #ffb62a;
-}
-
-ul {
-  list-style: none;
-}
-
-ul li a {
-  text-decoration: none;
 }
 
 //=======================Animações==============================

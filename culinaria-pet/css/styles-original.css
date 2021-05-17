@@ -1,0 +1,98 @@
+body {
+  /* background: url(/Projeto_Pets/img/back-ground.jpg); */
+  /* width: 100%; */
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+.header {
+  padding: 1px;
+  width: 100px;
+  height: 30px;
+  float: bottom;
+}
+
+#menu {
+  border: px solid black;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+#menu ul li {
+  float: right;
+}
+
+#menu ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#menu ul li a:link {
+  text-decoration: none;
+}
+/* #menu      ul li a:visited  {} */
+#menu ul li a:hover {
+  color: #ff00af;
+}
+#menu ul li a:active {
+  background-color: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+/* <br>
+		<br>
+		<br> */
+
+#animais {
+  border: 1px solid black;
+}
+#animais ul {
+  border: 0px solid black;
+  padding-right: 0px;
+  margin: 20px;
+  background: none;
+}
+
+#animais ul h2 {
+  border: 1px solid blue;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  display: block-inline;
+  padding: 100x;
+  margin: 50px 575px;
+  float: right;
+}
+
+.box {
+  /* float: right; */
+  /* width: 150px; */
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* </style>  
+	utilizar header id pra separar.
+	
+	e class */
+
+/* figure{
+			border:1px solid blue;
+			padding:1px;
+			width:150px;
+			margin: 1px 20px;
+			float:right;
+			display:block-inline;
+		} */

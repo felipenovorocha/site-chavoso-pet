@@ -8,8 +8,8 @@
 
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Ubuntu", sans-serif;
 }
 /* clear: both; */
@@ -121,9 +121,11 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px 5%;
-  height: 85px;
+  align-items: center;
+  padding: 2vh 2vh;
+  /* height: 85px; */
   background-image: url(foggy_birds.png);
+  /* background-color: blue; */
 }
 
 #logo {
@@ -159,12 +161,13 @@ li,
 a:hover,
 #ad:hover,
 #ad2:hover {
-  color: #d57dff;
+  color: var(--cor-comp1);
 }
 
 #ad1:hover,
 #ad3:hover {
   color: #ffb62a;
+  border-bottom: 1px var(--cor-comp1);
 }
 /** div 01 **/
 #conteudo {
@@ -189,7 +192,15 @@ a:hover,
   background-image: url(foggy_birds.png);
   text-align: center;
   padding-top: 50px;
+  display: flow-root;
 }
+
+/* .card {
+  display: flex;
+  flex-direction: clomun;
+  justify-content: space-around;
+  align-items: center;
+} */
 
 #img2-a,
 #img2-b,
@@ -201,19 +212,20 @@ a:hover,
 }
 
 #img2-a {
-  background: transparent url(div2shiba.png);
+  /* background: transparent url(div2shiba.png); */
+  background: transparent url(/home-page/img/div2shiba.png);
   width: 350px;
   height: 350px;
 }
 
 #img2-b {
-  background: transparent url(div2hotel.png);
+  background: transparent url(/home-page/img/div2hotel.png);
   width: 350px;
   height: 350px;
 }
 
 #img2-c {
-  background: transparent url(div2walk.png);
+  background: transparent url(/home-page/img/div2walk.png);
   width: 350px;
   height: 350px;
 }
@@ -257,6 +269,7 @@ a:hover,
   float: left;
   padding: 50px;
   padding-top: 230px;
+  display: flow-root;
 }
 
 #work-image {

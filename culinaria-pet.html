@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+        <html lang="pt-br">
+            <head>
+                <meta charset="UTF-8">
+                <title> Culinária Pet</title>
+
+                        <!-- css link pra diretório -->
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link rel="shortcut icon" href="home-page/img/icone.png">
+                <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">       
+                <link rel="stylesheet" href="culinaria-pet/css/styles.css" >
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+           
+        </head>
+
+
+    <body>
+
+        <!--BARRA DE NAVEGAÇÃO-->
+
+        <div id="nav-placeholder"></div>
+
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+
+        <!--BARRA DE NAVEGAÇÃO-->
+
+
+                        <!-- Slide-Noticias -->
+                <section class="background-slider">
+
+                    <ul class="slider header"> 
+                        
+                        <li>
+                            <input type="radio" id="slide1" name="slide" checked>
+                                <label for="slide1" ></label>
+                                     <img src="culinaria-pet/img/bird-slide.jpg" width="500" height="250" /> 
+                                        </li>
+
+                         <li>
+                               <input type="radio" id="slide2" name="slide">
+                               <label for="slide2"></label>
+                               <img src="culinaria-pet/img/filhotes-slide.jpg" width="500" height="250"/>
+                         </li>
+                         <li>
+                               <input type="radio" id="slide3" name="slide">
+                               <label for="slide3"></label>
+                               <img src="culinaria-pet/img/hamster-slide.jpg" width="500" height="250"/>
+                         </li>
+
+                     </ul>      
+                     
+                    </section>
+
+                        <!-- Seleção_Animais -->
+                        
+            <section class= "section" id="animais">
+                
+                <div class="icons">
+                   
+                    <div class="icon">
+                        <h1>Cães</h1>
+                        <img src="culinaria-pet/img/dog-start.jpg" width="150" height="90" alt="dog">
+                    </div>
+
+
+                    <div class="icon">
+                        <h1>Gatos</h1>
+                        <img src="culinaria-pet/img/cat-start.jpg" width="150" height="90" alt="cat">
+                    </div>
+                        
+                    <div class="icon">
+                        
+                        <h1>Outros</h1>
+                        <img src="culinaria-pet/img/others-start.jpg" width="150" height="90" alt="others">
+                    </div>
+                </div>                        
+    
+            </section>
+
+                    <!--RODAPÉ-->
+                    
+                    <div id="footer-placeholder">
+
+                    </div>
+                    
+                    <script>
+                    $(function(){
+                      $("#footer-placeholder").load("footer.html");
+                    });
+                    </script>
+
+                    <!--RODAPÉ-->
+     
+
+    </body>

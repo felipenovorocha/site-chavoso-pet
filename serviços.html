@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="home-page/img/icone.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
     <link rel="shortcut icon" href="imagens/icone.png">
     <link rel="stylesheet" href="/servicos/style.css">
     <title>Página de Serviços - Chavoso Pet</title>
 
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-</style>
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+    </style> 
+           
     
 </head>
 <body>
-    <nav>
-        <label class="logo"><img src="/servicos/imagens/logot.png"></label>
-        <ul>
-            <li><a href="#">Home Page</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Culinária Pet</a></li>
-            <li><a href="#">Trabalho Voluntário</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-    </nav>
+       <!--BARRA DE NAVEGAÇÃO-->
+
+        <div id="nav-placeholder"></div>
+
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+
+        <!--BARRA DE NAVEGAÇÃO-->
+
+        
+ 
      
     <div class="titulo">
         <h1>Nossos Serviços</h1>
@@ -60,6 +65,20 @@
                 Earum, laborum.</p>
         </div>
     </div>
+
+    <!--RODAPÉ-->
+                    
+    <div id="footer-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+
+    <!--RODAPÉ-->
         
 </body>
 </html>
