@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --cor-principal: #ff00af;
   --cor-secundaria: #74003e;
@@ -288,6 +289,13 @@
   font-size: 30px;
   padding: 0.5em;
   border-radius: 0.35em;
+}
+
+.botão:hover {
+  color: var(--cor-secundaria);
+  background-color: white;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 a:hover {

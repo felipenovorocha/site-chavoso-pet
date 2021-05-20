@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+        <html lang="pt-br"> 
+
+            <head>
+                <meta charset="UTF-8">
+                <title> Culinária Pet</title>
+
+                        <!-- css link pra directório -->
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link rel="shortcut icon" href="home-page/img/icone.png">
+                <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">       
+                <link rel="stylesheet" href="culinaria-pet/culinaria1-style.css" >
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+           
+        </head>
+
+
+    <body>
+
+        <!--BARRA DE NAVEGAÇÃO-->
+
+        <div id="nav-placeholder"></div>
+
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+
+        <!--BARRA DE NAVEGAÇÃO-->
+
+
+                        <!-- Slide-Noticias -->
+
+
+
+                <header class="background-slider">
+
+                    <ul class="slider header"> 
+                       
+                        
+                        <li>
+                            <input type="radio" id="slide1" name="slide" checked>
+                                <label for="slide1" ></label>
+                                     <img src="culinaria-pet/img/bird-slide.jpg" /> 
+                                        </li>
+
+                         <li>
+                               <input type="radio" id="slide2" name="slide">
+                               <label for="slide2"></label>
+                               <img src="culinaria-pet/img/filhotes-slide.jpg" />
+                         </li>
+                         <li>
+                               <input type="radio" id="slide3" name="slide">
+                               <label for="slide3"></label>
+                               <img src="culinaria-pet/img/hamster-slide.jpg" />
+                         </li>
+
+                       
+
+                     </ul>      
+                   
+                    </header>
+                </div>
+
+
+                        <!-- Seleção_Animais -->
+                        
+
+            <section class= "section" id="animais">
+                
+                <div class="icons">
+                   
+                    <div class="icon">
+                        <h1>Cães</h1>
+                        <a href="#writting"><img src="culinaria-pet/img/dog-start.jpg" width="150" height="90" alt="dog"></a>
+                    </div>
+
+
+                    <div class="icon">
+                        <h1>Gatos</h1>
+                        <a href="#writting"><img src="culinaria-pet/img/cat-start.jpg" width="150" height="90" alt="cat"></a>
+                    </div>
+                        
+                    <div class="icon">
+                        
+                        <h1>Outros</h1>
+                        <a href="#writting"><img src="culinaria-pet/img/others-start.jpg" width="150" height="90" alt="others"></a>
+
+                    </div>
+                </div>                        
+            </section>
+
+
+            <!-- 2º pag -->
+
+
+
+            <div class="background-alimentacao">
+            </div>
+
+                <h1 class="titulo">Tipos de Alimentação</h1>
+
+                
+                
+                <div class="descricao">
+                    <ul>
+                       
+                        <li><a href="#writting"><b>Dieta de alimentos Cozidos</b></a></li>
+                        
+                        <li><a href="#writting"><b>Dieta de alimentos Crú e sem ossos</b></a></li>
+
+                        <li><a href="#writting"><b>Dieta de alimentos crú com ossos</b></a></li>
+                       
+                    </ul>
+                </div>
+
+         <div id="writting">    
+        <p class="info-alimentacao">ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo delectus accusantium consequuntur laboriosam voluptatum exercitationem facilis sapiente nesciunt, ea ex cum mollitia odio. Tempora omnis libero voluptatibus minus optio fuga praesentium. Voluptatem provident suscipit iste vel eaque, voluptas totam temporibus possimus eos tempora facilis cum nisi tenetur perferendis laudantium, quo quod iure, ad corporis? Minima facere iusto dolore consectetur! Vel earum quaerat commodi repellendus reprehenderit! ipsum dolor sit amet consectetur adipisicing elit. Dolores, odio suscipit perferendis assumenda illum necessitatibus quas voluptatum autem odit accusantium!</p>
+         </div>
+
+        <div class="noticias">
+            
+            <a href="#"><img src="culinaria-pet/img/hamster-start.jpg" width="350" height="170" alt="dog" </a>
+                        <p>
+                            <b>Alimentação de Hamster.</b>
+                        </p>
+    
+                        <a href="#"><img src="culinaria-pet/img/cat-start.jpg" width="350" height="170" alt="cat"</a>
+                            <p>
+                                <b>Torna a vida do seu gato mais saúdavel.</b>
+                            </p>
+    
+                            <a href="#"><img src="culinaria-pet/img/others-start.jpg" width="350" height="170" alt="others"</a>
+                            <p>
+                                <b> Alimentação de animais exóticos. </b>
+                            </p>
+                                              
+        </div>  <!-- noticias end -->
+
+
+
+        
+
+                    <!--RODAPÉ-->
+                    
+                    <div id="footer-placeholder">
+
+                    </div>
+                    
+                    <script>
+                    $(function(){
+                      $("#footer-placeholder").load("footer.html");
+                    });
+                    </script>
+
+                    <!--RODAPÉ-->
+     
+
+    </body>

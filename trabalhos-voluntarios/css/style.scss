@@ -288,6 +288,12 @@
 
 //=======================Animações==============================
 
+.botão:hover {
+  color: var(--cor-secundaria);
+  background-color: white;
+  transform: scale(1.5);
+}
+
 a:hover {
   color: var(--cor-acento);
   transition: 0.2s;
