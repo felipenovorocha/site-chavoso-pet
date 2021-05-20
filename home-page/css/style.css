@@ -162,7 +162,8 @@ a:hover,
 #ad:hover,
 #ad2:hover {
   color: var(--cor-comp1);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  /* transform: scale(1.2); */
 }
 
 #ad1:hover,
@@ -486,6 +487,7 @@ footer {
 }
 
 .a6:hover {
+  font-size: 1.1rem;
   color: #ffb62a;
 }
 

@@ -2,7 +2,9 @@
 <head>
 
 <meta charset="UTF-8">
-    <title>Página de Serviços - Chavoso Pet</title>
+    <title>Blog</title>
+<link rel="shortcut icon" href="home-page/img/icone.png">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 
@@ -14,14 +16,8 @@
         width:150px;
         height:550px;
         background-color:solid black
-        }
-       
+        }  
 
-       
-        #caixa3{
-
-
-        }
 
 #img1{
 margin-left:400px
@@ -51,6 +47,18 @@ text-align:center;
 
 
 <body>
+
+               <!--BARRA DE NAVEGAÇÃO-->
+
+               <div id="nav-placeholder"></div>
+
+               <script>
+               $(function(){
+               $("#nav-placeholder").load("nav.html");
+               });
+               </script>
+       
+               <!--BARRA DE NAVEGAÇÃO-->
    
      
    
@@ -66,7 +74,7 @@ O melhor site curiosidades para os melhores pets <3.</p></h1>
 
 <div id="img1">
 
-<img src="dog and cat.png">
+<img src="/blog/img/dog and cat.png">
 
 </div>
 
@@ -84,7 +92,7 @@ Assim, você escolhe um nome que tem a ver com os seus gostos e que é a cara do
 
 <div id="img2">
 
-<img src="animais.png">
+<img src="/blog/img/animais.png">
 
 </div>
 
@@ -100,7 +108,7 @@ e agora pode trazer para o do seu pet também.</p></h1>
 
 <div id="img3">
 
-<img src="cachorrocomendo.png">
+<img src="/blog/img/cachorrocomendo.png">
 
 </div>
 
@@ -112,7 +120,21 @@ e mais limpa com um blog explicando como cuidar de seu animalzinho!</p></h1>
 <a class="ad4" href="#" target="_blank"><button class="bd4">Clique para acessar</button></a>
 </div>
 
-<img src="banh-do-pet-em-casa.png">
+<img src="/blog/img/banh-do-pet-em-casa.png">
+
+<!--RODAPÉ-->
+                    
+<div id="footer-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+
+<!--RODAPÉ-->
 
 </body>
 
