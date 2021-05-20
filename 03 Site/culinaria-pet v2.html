@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+        <html lang="pt-br">
+            <head>
+                <meta charset="UTF-8">
+                <title> Culinária Pet</title>
+
+                        <!-- css link pra diretório -->
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link rel="shortcut icon" href="home-page/img/icone.png">
+                <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">       
+                <link rel="stylesheet" href="/culinaria-pet/culinaria2-style.css" >
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+           
+        </head>
+
+
+    <body>
+
+        <!--BARRA DE NAVEGAÇÃO-->
+
+        <div id="nav-placeholder"></div>
+
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+
+<!--BARRA DE NAVEGAÇÃO-->
+
+
+<!-- Slide-Noticias -->
+
+<header>
+    
+    <h1>Seu Pet tem Muito Valor</h1>                        
+    <h2>Receba dicas de <span>como alimentá-lo</span></h2>                        
+    <a class="button"  href="#footer-placeholder">Cadastre-se</a>
+        
+</header>
+    
+
+
+                        <!-- Seleção_Animais -->
+                        
+            <section class="tipos-de-receitas">
+
+<h1>Tipos de Receitas</h1>
+                <div class="card-container">
+
+                    <div class="card card-1">
+                            <h2>Cães</h2>
+                            <img src="culinaria-pet/img/dog-start.jpg"  alt="dog">
+                    </div>                        
+                        
+                        
+                        <div class="card card-2">
+                            <h2>Gatos</h2>
+                            <img src="culinaria-pet/img/cat-start.jpg"  alt="cat">
+                        </div>
+                        
+                        <div class="card card-3">
+                            
+                            <h2>Outros</h2>
+                            <img src="culinaria-pet/img/others-start.jpg"  alt="others">
+                        </div>
+                </div>
+
+                </section>
+                
+                    <!--RODAPÉ-->
+                    
+                    <div id="footer-placeholder">
+
+                    </div>
+                    
+                    <script>
+                    $(function(){
+                      $("#footer-placeholder").load("footer.html");
+                    });
+                    </script>
+
+                    <!--RODAPÉ-->
+     
+
+    </body>
