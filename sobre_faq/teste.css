@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff00af;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.acordion-img {
+  height: 50rem;
+  margin: 5vh;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #ffb62a;
+  font-size: 42px;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 200;
+  /* line-break: auto; */
+}
+
+button {
+  margin-bottom: 1rem;
+  /* color: #ffb62a; */
+  font-size: 30px;
+}
+
+/* accordion */
+
+.principal {
+  min-height: 100vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+a .accordion-All {
+  width: 50%;
+  margin: auto;
+}
+
+.accordion-container {
+  width: 50%;
+}
+
+.accordion {
+  background-color: #74003e;
+  border-radius: 0.1rem;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 50px;
+  padding-left: 50px;
+  margin: auto;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  color: #ffb62a;
+}
+
+.conteudo-accordion {
+  font-style: italic;
+  width: 100%;
+  line-height: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #74003e;
+  color: white;
+  display: none;
+}
+
+.conteudo-accordion:last-child {
+  padding-bottom: 20px;
+}
+
+#footer-placeholder {
+  position: relative;
+  margin-top: -100px;
+  z-index: 100;
+}

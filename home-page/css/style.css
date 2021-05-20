@@ -162,12 +162,12 @@ a:hover,
 #ad:hover,
 #ad2:hover {
   color: var(--cor-comp1);
+  font-size: 1.8rem;
 }
 
 #ad1:hover,
 #ad3:hover {
   color: #ffb62a;
-  border-bottom: 1px var(--cor-comp1);
 }
 /** div 01 **/
 #conteudo {

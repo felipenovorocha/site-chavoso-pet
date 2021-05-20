@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="sobre_faq/style-faq.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/sobre_faq/teste.css">
+    <link rel="shortcut icon" href="/home-page/css/icone.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Perguntas Frequentes</title>
+</head>
+
+<body>
+          
+    <!--BARRA DE NAVEGAÇÃO-->
+        
+        <div id="nav-placeholder"></div>
+        
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+  
+          <!--BARRA DE NAVEGAÇÃO-->
+    
+    
+    <section class="principal">
+
+        
+        
+        <img class="acordion-img" src="/sobre_faq/img/dogPergunta.png" alt="">
+        
+        <div class="acordion-container">
+            <h1 id="title">Perguntas Frequentes</h1>
+            <div class="accordion-All">
+                <button class="accordion"> Nos podemos pedir online e buscar na loja fisica?</button>
+                <div class="conteudo-accordion">
+                    <p>Sim! Iremos separar seu pedido na loja escolhida por você. Assim que o pedido estiver separado, iremos
+                        lhe enviar um email de confirmação e você irá poder buscar seus produtos. Normalmente o tempo de
+                        saparação dos itens é entre 2 e 5 dias.</p>
+                    </div>
+                    
+                    <button class="accordion"> Quais as formas de pagamento da loja?</button>
+                    <div class="conteudo-accordion">
+                        <p>Em nossa loja virtual, nós aceitamos pagamento via Pix, PicPay, Cartão de crédito, Cartão de débito e
+                            Boleto. E em nossas lojas físicas nós aceitamos pagamentos via Pix, Pague seguro, Dinheiro, Cartão de
+                            crédito e Cartão de débito</p>
+                        </div>
+                        
+                        <button class="accordion"> Eu posso fazer um pedido por telefone?</button>
+                        <div class="conteudo-accordion">
+                            <p>Sim! Você pode pedir e a unidade mais próxima de seu endereço irá enviar os produtos. Porém assim como
+                                pelo nosso site, é cobrado um preço pela entrega</p>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                    
+                    <script src="/sobre_faq/script.js"></script>
+
+ <!--RODAPÉ-->
+                    
+ <div id="footer-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+
+<!--RODAPÉ-->
+
+</body>
+
+</html>
